@@ -16,7 +16,6 @@
   margin-left: 2rem;
 }
 
-
 p {
   margin: 5px;
   font-family: Arial;
@@ -35,6 +34,7 @@ i,
 .box li {
   color: whitesmoke;
 }
-.box strong, .box p {
+.box strong,
+.box p {
   margin-left: 1rem;
 }
