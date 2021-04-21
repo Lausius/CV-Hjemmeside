@@ -1,0 +1,40 @@
+.container {
+  border-style: solid;
+  margin-bottom: 1rem;
+}
+
+.kontakt-data,
+.box h3 {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.profil-tekst {
+  margin-bottom: 1rem;
+}
+.box li {
+  margin-left: 2rem;
+}
+
+
+p {
+  margin: 5px;
+  font-family: Arial;
+}
+
+.box {
+  border-style: solid;
+  padding: 5px;
+  margin-top: 1rem;
+}
+
+.box p,
+.box strong,
+.box span,
+i,
+.box li {
+  color: whitesmoke;
+}
+.box strong, .box p {
+  margin-left: 1rem;
+}
