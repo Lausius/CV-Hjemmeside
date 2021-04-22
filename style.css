@@ -14,7 +14,7 @@
 }
 
 
-p {
+p, li, span {
   margin: 5px;
   font-family: Arial;
 }
