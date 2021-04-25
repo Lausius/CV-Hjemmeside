@@ -30,8 +30,9 @@ p, li, span {
 .box strong,
 .box span,
 i,
-.box li {
+.box li, .box a {
   color: whitesmoke;
+  word-wrap: break-word;
 }
 .box strong,
 .box p {
