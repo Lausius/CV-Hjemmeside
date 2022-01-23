@@ -28,7 +28,7 @@ span {
 
 .box {
   border-style: solid;
-  border-color: goldenrod;
+  border-color: #007bff;
   padding: 10px;
   margin-top: 1rem;
 }
