@@ -70,8 +70,10 @@
 
         <div class="erhvervserfaring box">
           <p class="lead"><strong>ERHVERVSERFARING</strong></p>
+          <strong>KMD A/S, DevOps Engineer</strong>
+          <p>2023 - nu</p>
           <strong>KMD A/S, Junior Developer</strong>
-          <p>2022 - nu</p>
+          <p>2022 - 2023</p>
           <strong>Malgré Tout, Tech Praktikant</strong>
           <p>2021</p>
           <strong>Moment A/S, Lagermedarbejder</strong>
@@ -81,7 +83,7 @@
       <div class="col col-xs-12 content px-5">
         <div class="overskrifter">
           <h1 class="display-4">Anders Højer</h1>
-          <h3 class="text-muted mb-5">Junior Software Developer</h3>
+          <h3 class="text-muted mb-5">DevOps Engineer</h3>
         </div>
 
         <div class="profil">
@@ -106,59 +108,57 @@
             Jeg har erfaring som fullstack udvikler og Angular (frontend) og C# (backend) tech stack. Min primære
             erfaring ligger dog inde for DevOps området, hvor jeg bl.a. har arbejdet med at
             indføre Infrastructure As Code (IAC) i form af ARM/Bicep templates til Azure infrastruktur og Azure Devops
-            CI/CD Pipelines som YAML templates. Ligeledes har disse ansvarsopgaver givet mig en stor erfaring med
+            CI/CD Pipelines som YAML templates. Disse ansvarsopgaver har givet mig stor erfaring med
             Powershell, som bruges til at automatisere en del af de nødvendige jobs der skal udføres under en automatisk
             release pipeline.
           </p>
         </div>
 
         <div class="it-kompetencer mb-4">
-          <p class="lead"><strong>IT KOMPETENCER</strong></p>
+          <p class="lead"><strong>ARBEJDSOPGAVER</strong></p>
           <hr class="bg-primary" />
           <ul>
-            <li>C# <span class="badge-primary badge">Rutineret</span></li>
+            <li>Implementering af <strong>Azure App Configuration</strong></li>
             <ul>
-              <li>.NET Core & ASP.NET Core</li>
-              <li>Entity Framework</li>
-              <li>Unit- & Integration Testing med xUnit og MSTest</li>
+              <li><strong>Confiugrations explorer</strong> til at holde styr på konfigurations værdier på tværs af applikationer</li>
+              <li><strong>Feature manager</strong> til at anvende feature flag i frontend og backend applikationer</li>
+              <li><strong>Pusher</strong> integration til at give 'real-time events' når bestemte flag bliver slået til/fra</li>
             </ul>
-            <li>
-              JavaScript & TypeScript
-              <span class="badge-primary badge">Rutineret</span>
-            </li>
+            <li>Generisk <strong>Azure DevOps CI/CD yaml template</strong> til deployment af <strong>single-tenant Microservices</strong> i alle miljøer</li>
             <ul>
-              <li>Angular</li>
-              <li>React</li>
+              <li><strong>Multi-repo</strong> pipeline som benytter <strong>IAC templates</strong> i et repo til at udgive kode fra et andet repo</li>
+              <li>IAC i form af <strong>YAML templates</strong>, <strong>bicep</strong> og <strong>powershell scripts</strong></li>
+              <li>Idempotent deployment som bl.a. opsætter app setting key vault referencer, <strong>DNS </strong> (TXT, CNAME og ALIAS records), 
+                <strong>Virtuelt Netværk/Subnets/Private Endpoint</strong>, 
+                <strong>IP Restriktioner</strong> til main- og SCM side, 
+                <strong>Database</strong>, 
+                <strong>SSL Certificate Binding</strong> mm.
+              </li>
+              <li>Tilhørende PR-miljø deployment (bl.a. brugt til test)</li>
             </ul>
-            <li>
-              HTML & CSS <span class="badge-primary badge">Rutineret</span>
-            </li>
+            <li>Custom kæde validering af certifikater på <strong>Azure App Service</strong> (Nødvendigt da man ikke kan 'trust' et 'root certificate' i en App Service)</li>
+            <li>Opdateret SMS service til at anvende <strong>Azure Function App </strong> og <strong>Azure Service Bus</strong></li>
             <ul>
-              <li>Bootstrap Design</li>
+              <li>Tilhørende <strong>Dead Letter Queue</strong> funktion til at gensende 'tabte' SMS'er</li>
+              <li>Tilhørende CI/CD pipeline til deployment af function app og service bus queue på <strong>udvikling-</strong>, <strong>test-</strong> og <strong>produktionsmiljøer</strong></li>
+              <li>Tilhørende funktion der advarsler om SMS'er der ikke er blevet sendt</li>
             </ul>
-            <li>Azure Cloud <span class="badge-primary badge">Rutineret</span></li>
+            <li>Automatisering af release processer via. <strong>pipeline orchestration</strong></li>
             <ul>
-              <li>IAC med ARM/Bicep templates</li>
-              <li>Opsætning af udviklings-, test- & produktionsmiljøer (single- & multi tenant app services)</li>
-              <li>Opsætning af dynamiske (Pull Request) miljøer, så udviklere kan teste i cloud</li>
-              <li>Debugging med Application Insights (Log Analytics)</li>
-              <li>Brug og opsætning af Azure Keyvaults, samt hvordan man benytter secrets på en sikker måde</li>
+              <li>Herunder automatisk <strong>oprettelse af release branches (GIT)</strong>, 
+                <strong>kørsel af CI/CD pipelines</strong>, 
+                <strong>opdatering af versionsnummer</strong>, 
+                <strong>generering af release dokumenter til kunden</strong>, 
+                <strong>annoncering af relevant release information til udviklere og kunder på Microsoft Teams/Email</strong>
+              </li>
+              <li><strong>Cherry Pick (GIT)</strong> release til at håndtere ændringer der skulle forekomme i løbet af en release</li>
             </ul>
-            <li>Azure DevOps <span class="badge-primary badge">Rutineret</span></li>
-            </li>
+            <li>Udvidelse af eksisterende pipelines</li>
             <ul>
-              <li>Implementering af CI/CD pipeline (YAML templates) til microservices</li>
-              <li>Opsætning og vedligeholdelse af build agenter</li>
+              <li>Indførelse af <strong>Slot Deployment</strong> til deployment af <strong>Azure App Services</strong> 
+                (bruges bl.a. til at undgå nedetid for applikationer hvis der være brug for hotfix i produktionsmiljøet)
+              </li>
             </ul>
-            <li>Powershell & Azure CLI <span class="badge-primary badge">Rutineret</span></li>
-            <li>SQL <span class="badge-info badge">Kendskab</span></li>
-            <li>Docker & Kubernetes <span class="badge-info badge">Kendskab</span></li>
-            <ul>
-              <li>Opsætning af lokale- & cloud miljøer</li>
-            </ul>
-            <li>Git & Github Actions <span class="badge-info badge">Kendskab</span></li>
-            <li>Python <span class="badge-danger badge">Basisviden</span></li>
-            <li>Postman</li>
           </ul>
         </div>
       </div>
