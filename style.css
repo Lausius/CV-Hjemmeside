@@ -59,3 +59,41 @@ i,
   margin-bottom: 1rem !important;
   margin-top: 1rem !important;
 }
+
+.timeline {
+  color: #ecebf3;
+  position: relative;
+  padding-left: 40px; /* Adjust this value to increase or decrease the space between the timeline and the content */
+}
+
+.timeline:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 20px;
+  height: 100%;
+  width: 2px;
+  background-color: #ecebf3; /* Adjust this value to change the color of the timeline */
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 10px; /* Adjust this value to increase or decrease the space between timeline items */
+}
+
+.timeline-item:before {
+  content: '';
+  position: absolute;
+  top: 30%;
+  left: -19px; /* Adjust this value to position the dot along the timeline */
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #ecebf3; /* Adjust this value to change the color of the dot */
+  z-index: 1;
+  transform: translate(-50%, -50%); /* Add this to center the dot vertically on the timeline */
+}
+
+.timeline-date {
+  font-weight: bold;
+}
