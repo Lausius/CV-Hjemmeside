@@ -45,6 +45,11 @@ span {
   margin-top: 1rem;
 }
 
+.last-updated {
+  position: absolute;
+  bottom: 0;
+}
+
 .box p,
 .box strong,
 .box span,

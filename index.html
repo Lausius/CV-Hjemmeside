@@ -26,7 +26,6 @@
         </div>
         <div class="box">
           <p class="lead text-primary"><strong> CONTACT </strong></p>
-
           <div class="kontakt-data">
             <i class="fas fa-home mr-2"></i><span>4000 Roskilde</span>
           </div>
@@ -57,7 +56,7 @@
                 <p>Application Security Analyst - Practitioner</p>
               </div>
             </div>
-            
+
             <div class="timeline-item">
               <div class="timeline-content">
                 <div class="timeline-date">2022 - 2023</div>
@@ -76,7 +75,7 @@
                 <p>Zealand, Roskilde, Computer Science (AP)</p>
               </div>
             </div>
-            
+
             <div class="timeline-item">
               <div class="timeline-date">2019</div>
               <div class="timeline-content">
@@ -84,21 +83,20 @@
               </div>
             </div>
 
-            
+
             <div class="timeline-item">
               <div class="timeline-date">2017</div>
               <div class="timeline-content">
                 <p>Niels Brock, Mathematics A (GSK)</p>
               </div>
             </div>
-            
+
             <div class="timeline-item">
               <div class="timeline-date">2013 - 2016</div>
               <div class="timeline-content">
                 <p>Roskilde Technical College (HTX)</p>
               </div>
             </div>
-            
             <!-- Add more timeline items as needed -->
           </div>
         </div>
@@ -108,7 +106,10 @@
           <p>Danish - <strong>Native Language</strong></p>
           <p>English - <strong>Fluid</strong></p>
         </div>
-
+        <!-- Last Updated Section -->
+        <div class="last-updated">
+          <p class="text-muted"><small><strong>Last Updated:</strong> 31. january 2025</small></p>
+        </div>
       </div>
       <div class="col col-xs-12 content px-5">
         <div class="overskrifter">
@@ -119,73 +120,107 @@
         <div class="profil">
           <p class="lead"><strong>PROFILE</strong></p>
           <p class="profil-tekst">
-            I am structured and logical in my working approach, and am
-            not afraid to take responsibility. In a team, I fit well into the
-            the role of 'devil's advocate', as I am good at giving
-            constructive criticism. I often bring a realistic and innovative
-            perspective to the execution of work tasks. In addition, I am also a sympathetic person who thrives in a team,
-            where everyone is allowed to contribute and feel comfortable.
-            At the same time, I am a proactive person with a high level of ambition, and I am
-            solution-oriented by nature. I am a quick learner and find
-            motivation to develop myself so that I can achieve my goals.
+            I am a structured and logical professional who takes ownership of tasks and responsibilities. In team
+            settings, I naturally assume the role of "devil's advocate," offering constructive feedback and presenting
+            realistic, innovative solutions. I am collaborative by nature, fostering an environment where all team
+            members are encouraged to contribute and feel comfortable. At the same time, I am proactive, ambitious, and
+            solution-oriented, always motivated to enhance my skills and reach my goals.
           </p>
           <p class="profil-tekst">
-            I have experience as a full-stack developer using Angular (frontend) and C#/.NET (backend) tech stack. 
-            My primary experience, however, lies within the DevOps area, where I have worked with Infrastructure As Code (IAC) in the form of ARM/Bicep templates for Azure infrastructure and Azure DevOps (ADO) CI/CD YAML Pipelines. 
-            These responsibilities have given me a lot of experience with Powershell, which i frequently use when developing automation tasks.
+            My core expertise lies in the DevOps domain. I have hands-on experience with Infrastructure as Code (IaC)
+            using ARM/Bicep templates for Azure infrastructure and building CI/CD pipelines in Azure DevOps using YAML
+            templates. Additionally, I have a solid background in Kubernetes and Azure Cloud, having worked extensively
+            with Azure Kubernetes Service (AKS) and cloud-native technologies. 
           </p>
+        </div>
+
+        <div class="it-kompetencer mb-4">
+          <p class="lead text-mu"><strong>TECHNICAL SKILLS</strong></p>
+          <ul>
+            <li>
+              <strong>Languages & Frameworks:</strong>
+              C#, PowerShell, Bash, Python, JavaScript, TypeScript, Angular, .NET Framework, .NET Core, ASP.NET,
+              WCF,.NET 6/7/8, Blazor
+            </li>
+            <li>
+              <strong>Tools & Platforms:</strong>
+              Azure, Azure CLI, Azure DevOps, Kubernetes, Docker, Helm, ArgoCD, ARM, Bicep, Git
+            </li>
+          </ul>
         </div>
 
         <div class="it-kompetencer mb-4">
           <p class="lead text-mu"><strong>WORK ASSIGNMENTS</p>
           <ul>
-            <li class="font-weight-bold">Implementation of Azure App Configuration</li>
-            <ul class="font-weight-normal">
-              <li>Using 'Configurations explorer' to keep track of configuration values across applications</li>
-              <li>Using 'Feature manager' to apply feature flags in front- and backend applications</li>
-              <li>Using 'Pusher API' to provide realtime feature changes when certain flags are turned on/off</li>
-            </ul>
-            <li class="font-weight-bold">Generic ADO CI/CD yaml template for deployment of single-tenant Microservices in all environments</li>
-            <ul class="font-weight-normal">
-              <li>Multi-repo pipeline that uses IAC templates in one repo to publish code from another repo</li>
-              <li>IAC in the form of YAML templates, bicep and powershell scripts</li>
-              <li>
-                Idempotent deployment which sets up app setting key vault references, 
-                DNS (TXT, CNAME and ALIAS records), Virtual Networks, Subnets and Private Endpoints, IP Restrictions for main and SCM side, 
-                Database, SSL Certificate Binding etc.
-              </li>
-              <li>Associated PR environment deployment (i.a. used for testing)</li>
-            </ul >
-            <li>Transitioning highly used legacy application from IaaS to PaaS</li>
-            <ul class="font-weight-normal">
-              <li>Implemented new custom chain validation for certificates</li>
-              <li>Modified Windows Communication Foundation (WCF) to be able to function on Azure Cloud</li>
-            </ul>
-            <li class="font-weight-bold">Updated SMS service to use 'Azure Function App' and 'Azure Service Bus'</li>
-            <ul class="font-weight-normal">
-              <li>Associated Dead Letter Queue (DLQ) function to resend unsent messages</li>
-              <li>Associated CI/CD pipeline for deployment of function app and service bus queue for all environments</li>
-              <li>Associated DLQ alert function that warns about messages that have not been sent properly</li>
-            </ul>
-            <li class="font-weight-bold">Automation of release processes via pipeline orchestration</li>
-            <ul class="font-weight-normal">
-              <li>
-                Including automatic creation of release branches (GIT), running specific CI/CD pipelines, updating version numbers, 
-                generating release documents for customers, announcing relevant release information to developers and customers on Microsoft Teams/Email
-              </li>
-              <li>Cherry Pick (GIT) release to handle changes that should occur during a release</li>
-            </ul>
-            <li class="font-weight-bold">Extending existing pipelines</li>
-            <ul class="font-weight-normal">
-              <li>Set-up of 'deployment slots' for Azure App Services (blue/green deployment)</li>
-            </ul>
-            <li>Setup and maintenance of hosted ADO agents used for build and release</li>
+            <li>
+              Azure App Configuration Implementation:
+              <p class="font-weight-normal">
+                Managed configuration tracking and feature flags across front-end and back-end applications, utilizing
+                the Configuration Explorer, Feature Manager, and Pusher API for real-time feature updates. This
+                implementation resulted in cost savings of over 70,000 dkr. annually by optimizing resource management
+                and reducing manual configuration overhead.
+              </p>
+            </li>
+            <li>
+              CI/CD Pipelines:
+              <p class="font-weight-normal">
+                Developed multi-repository CI/CD pipelines in Azure DevOps using YAML, Azure Bicep, and PowerShell to
+                deploy single-tenant applications across all environments with idempotent deployment and infrastructure
+                automation. Also improved existing pipelines by leveraging parallel jobs, reducing deployment times by
+                significantly.
+              </p>
+            </li>
+
+            <li>
+              Legacy App Transition (IaaS to PaaS):
+              <p class="font-weight-normal">
+                Led the migration of a high-traffic legacy app to PaaS, implementing custom
+                certificate validation and modifying WCF for Azure Cloud compatibility.
+              </p>
+            </li>
+            <li>
+              Messaging Microservice Implementation:
+              <p class="font-weight-normal">
+                Migrated SMS service to Azure Function App and Service Bus, including DLQ
+                functionality for message retries and automated CI/CD pipeline for deployment across all environments.
+              </p>
+            </li>
+            <li>
+              Release Process Automation:
+              <p class="font-weight-normal">
+                Streamlined release processes with pipeline orchestration, including automated branch creation, version
+                updates, release documentation, and communication to developers/customers via Microsoft Teams and Email.
+              </p>
+            </li>
+            <li>
+              Blue/Green Implementation:
+              <p class="font-weight-normal">
+                Implemented Azure App Service deployment slots for blue/green deployments, minimizing downtime and
+                enabling hotfix deployments during business hours.
+              </p>
+            </li>
+            <li>
+              Azure DevOps self-hosted agents Setup & Maintenance:
+              <p class="font-weight-normal">
+                Implemented a scheduled monthly job to automatically patch build agents with the latest software
+                updates, ensuring compliance with security standards and alignment with the monthly Qualys report to
+                minimize vulnerabilities.
+              </p>
+            </li>
+            <li>
+              Containerization & Hybrid Cluster Management:
+              <p class="font-weight-normal">
+                Fully containerized entire business application using Docker (Windows and Linux), deployed
+                in a hybrid Azure Kubernetes Service (AKS) cluster, configured with GitOps practices via Helm and ArgoCD
+                for streamlined management and deployment.
+              </p>
+            </li>
           </ul>
         </div>
       </div>
     </div>
 
-    
+
     <a style="opacity: 0; position: absolute; top: 0" href="https://icons8.com/icon/z6faRXwXtVdE/cv">CV icon by
       Icons8</a>
 </body>
